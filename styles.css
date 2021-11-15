@@ -18,27 +18,28 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .hero {
-    background-image: url("/images/Hot_Rice_8.jpg");
-    background-position: center center;
+    background-image: url("/images/Hot_Rice_9.jpg");
+    background-position: center top;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-size: cover;
     background-color: lightgray;
     margin: 0 auto;
     display: block;
-    padding: 375px;
+    padding: 380px;
     color: white;
 }
 
 .hero h1 { 
     font-family: var(--heading-font-family);
     line-height: 1;
-    font-size: 50px;
+    font-size: 65px;
 }
 
 .hero h2 { 
     font-family: var(--heading-font-family);
     line-height: 1;
+    font-size: 42px;
 }
 
 
@@ -71,6 +72,7 @@ font-family: 'Montserrat', sans-serif;
     background-color: rgb(44, 26, 1);
     border: rgb(59, 38, 7);
     color: burlywood;
+    text-decoration: none;
 }
 
 h2 {
@@ -84,19 +86,27 @@ h4 {
 
 }
 
-h5 {
+h5 h6 {
     font-family: var(--heading-font-family); 
 }
 
-h6 {
-    font-family: var(--heading-font-family);
-}
 
 p {
     font-family: var(--secondary-font-family);
     font-weight: normal;
     font-size: 17px;
 }
+
+a {
+    color:rgb(197, 66, 55);
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(59, 38, 7);
+    text-decoration: underline;
+}
+
 
 .profile-content-container {
     margin-top: 50px;
