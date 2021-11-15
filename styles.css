@@ -86,10 +86,13 @@ h4 {
 
 }
 
-h5 h6 {
+h5 {
     font-family: var(--heading-font-family); 
 }
 
+h6 {
+    font-family: var(--heading-font-family); 
+}
 
 p {
     font-family: var(--secondary-font-family);
@@ -185,6 +188,7 @@ blockquote {
 .vr {
     text-align: right;
 }
+
 
 .imgContainer-brand {
     height: 116px;
