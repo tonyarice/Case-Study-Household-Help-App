@@ -30,16 +30,20 @@ font-family: 'Montserrat', sans-serif;
     color: white;
 }
 
-.hero h1 { 
+.profile-info {
     font-family: var(--heading-font-family);
-    line-height: 1;
+}
+
+.profile-info h1 { 
     font-size: 65px;
 }
 
-.hero h2 { 
-    font-family: var(--heading-font-family);
-    line-height: 1;
+.profile-info h2 { 
     font-size: 42px;
+}
+
+.profile-info p {
+    font-family: var(--secondary-font-family);
 }
 
 
@@ -112,6 +116,7 @@ a:hover {
 
 
 .profile-content-container {
+    padding: 55px 20px 40px;
     margin-top: 50px;
 }
 
@@ -181,8 +186,16 @@ a:hover {
 }
 
 blockquote {
-    text-align: left;
-    padding-right: 125px;
+    padding-right: 75px;
+    margin: 0;
+    
+}
+
+blockquote p {
+    padding: 25px 35px;
+    background: burlywood;
+    border-radius: 5px;
+    text-align: justify;
 }
 
 .vr {
@@ -221,7 +234,7 @@ blockquote {
     border: 1px solid var(--branding-color);
 };
 
-.contact p {
+.contact-info p {
     font-size: 14px;
 }
 
@@ -253,9 +266,39 @@ blockquote {
 
 
 
-/* @media {
+@media (max-width: 960px) { 
 
-.btn-primary {
-    margin-bottom: 17px;
+    .profile-info {
+        padding: 0;
+     }
 
-} */
+     .profile-info h1 {
+         font-size: 50px;
+     }
+
+     .profile-info h2 {
+        font-size: 42px;
+    }
+
+     .profile-content-container {
+         text-align: center;
+     }
+
+     .branding {
+         text-align: center;
+     }
+
+     .branding p {
+         text-align: center;
+         padding: 0px;
+     }
+     
+     .quote {
+         text-align: center;
+     }
+
+     .buyers img {
+         max-width: 100%;
+     } 
+}
+
