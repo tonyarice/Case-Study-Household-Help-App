@@ -198,6 +198,11 @@ blockquote p {
     text-align: justify;
 }
 
+.nav-links {
+    margin-top: 125px;
+}
+
+
 .vr {
     text-align: right;
 }
