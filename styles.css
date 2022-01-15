@@ -31,6 +31,13 @@ font-family: 'Montserrat', sans-serif;
     
 }
 
+.profile-info .container {
+   text-align: left;
+   padding: 125px, 125px;
+   margin: 125px, 125px;
+
+}
+
 .profile-info {
     font-family: var(--heading-font-family);
 }
@@ -272,20 +279,19 @@ blockquote p {
 
 @media (max-width: 960px) { 
 
-    .hero {
-        background-image: url("/images/Hot_Rice_9B.jpg");
-        max-width: 100%;
-        height: auto;
-    }
-
+    
     .body {
         max-width: 100%;
         height: auto;
     }
-    
-    .profile-info .container {
-        text-align: left;
-     }
+
+   
+
+    /* .profile-info .container {
+        
+        text-align: center;
+
+     } */
 
      .profile-info h1 {
          font-size: 50px;
@@ -293,6 +299,11 @@ blockquote p {
 
      .profile-info h2 {
         font-size: 42px;
+    }
+
+    .hero {
+        width: 25%;
+        height: auto;
     }
 
      .profile-content-container {
