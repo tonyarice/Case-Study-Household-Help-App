@@ -273,7 +273,7 @@ blockquote p {
 @media (max-width: 960px) { 
 
     .hero {
-        background-image: url("/images/Hot_Rice_9.jpg");
+        background-image: url("/images/Hot_Rice_9B.jpg");
         max-width: 100%;
         height: auto;
     }
@@ -308,12 +308,20 @@ blockquote p {
          padding: 0px;
      }
      
-     .quote {
-         text-align: center; 
+     figure {
+         display: block;
+         margin: auto;
      }
+
+     figure blockquote p {
+         padding-left: 75px;
+         padding-right: 5px;
+     }
+
 
      .buyers img {
          max-width: 100%;
+         height: auto;
      } 
 }
 
