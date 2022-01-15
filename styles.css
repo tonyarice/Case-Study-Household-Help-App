@@ -277,9 +277,14 @@ blockquote p {
         max-width: 100%;
         height: auto;
     }
+
+    .body {
+        max-width: 100%;
+        height: auto;
+    }
     
-    .profile-info {
-        padding: 0;
+    .profile-info .container {
+        text-align: left;
      }
 
      .profile-info h1 {
@@ -304,7 +309,7 @@ blockquote p {
      }
      
      .quote {
-         text-align: center;
+         text-align: center; 
      }
 
      .buyers img {
