@@ -28,6 +28,7 @@ font-family: 'Montserrat', sans-serif;
     display: block;
     padding: 380px;
     color: white;
+    
 }
 
 .profile-info {
@@ -269,10 +270,14 @@ blockquote p {
 } */
 
 
-
-
 @media (max-width: 960px) { 
 
+    .hero {
+        background-image: url("/images/Hot_Rice_9.jpg");
+        max-width: 100%;
+        height: auto;
+    }
+    
     .profile-info {
         padding: 0;
      }
