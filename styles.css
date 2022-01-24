@@ -292,7 +292,7 @@ blockquote p {
 } */
 
 
-@media (max-width: 760px) { 
+@media (max-width: 960px) { 
 
     
     .body {
@@ -301,7 +301,7 @@ blockquote p {
     }
 
     .hero-image {
-        max-width: 100%;
+        max-width: 50%;
         height: auto;
     }
 
