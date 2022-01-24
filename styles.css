@@ -9,6 +9,7 @@ body {
     font-family: 'Belleza', sans-serif;
 font-family: 'Cormorant Garamond', serif;
 font-family: 'Montserrat', sans-serif;
+height: 100%;
 
 }
 
@@ -19,7 +20,7 @@ font-family: 'Montserrat', sans-serif;
 
 .hero {
     background-image: url("/images/Hot_Rice_9.jpg");
-    background-position: center top;
+    position: relative;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-size: cover;
@@ -28,6 +29,7 @@ font-family: 'Montserrat', sans-serif;
     display: block;
     padding: 380px;
     color: white;
+    height: 100%;
     
 }
 
