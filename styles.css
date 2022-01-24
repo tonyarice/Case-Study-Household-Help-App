@@ -18,43 +18,52 @@ height: 100%;
     font-weight: bold;
 }
 
-.hero {
+.hero-image {
     background-image: url("/images/Hot_Rice_9.jpg");
-    position: relative;
-    background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    background-size: cover;
     background-color: lightgray;
-    margin: 0 auto;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 480px;
+    /* margin: 0 auto;
     display: block;
-    padding: 380px;
+    padding: 480px;
     color: white;
     height: 100%;
-    
+    width: 100%;
+    max-width: 100%; */
 }
 
-.profile-info .container {
+
+/* .profile-info .container {
    text-align: left;
    padding: 125px, 125px;
    margin: 125px, 125px;
+} */
 
-}
-
-.profile-info {
+.hero-text {
     font-family: var(--heading-font-family);
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
 
-.profile-info h1 { 
+.hero-text h1 { 
     font-size: 65px;
     text-shadow: 2px 2px black;
 }
 
-.profile-info h2 { 
+.hero-text h2 { 
     font-size: 42px;
     text-shadow: 2px 2px black;
 }
 
-.profile-info p {
+.hero-text p {
     font-family: var(--secondary-font-family);
     text-shadow: 2px 2px black;
 }
@@ -282,7 +291,7 @@ blockquote p {
 } */
 
 
-@media (max-width: 960px) { 
+@media (max-width: 760px) { 
 
     
     .body {
@@ -290,27 +299,25 @@ blockquote p {
         height: auto;
     }
 
-   
-
-    /* .profile-info .container {
-        
-        text-align: center;
-
-     } */
-
-     .profile-info h1 {
-         font-size: 50px;
-     }
-
-     .profile-info h2 {
-        font-size: 42px;
-    }
-
-    .hero {
-        width: 25%;
+    .hero-image {
+        max-width: 100%;
         height: auto;
     }
 
+    .hero-text { 
+        top: 75%;
+        left: 25%;
+    }
+
+     .hero-text h1  {
+         font-size: 50px;
+     }
+
+     .hero-text h2 {
+        font-size: 32px;
+    }
+
+    
      .profile-content-container {
          text-align: center;
      }
