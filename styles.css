@@ -299,6 +299,10 @@ blockquote p {
         height: auto;   
     }
 
+    .fixed-top {
+        position: relative;
+    }
+
     .hero-image {
         background-image: url("/images/Hot_Rice_9B.jpg"); 
         max-width: 415px;
@@ -307,6 +311,7 @@ blockquote p {
         height: 100%;
         padding-top: 560px;
         padding-left: 230px;
+        position: relative;
     }
 
     .hero-text { 
