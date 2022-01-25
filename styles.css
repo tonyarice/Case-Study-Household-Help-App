@@ -302,14 +302,14 @@ blockquote p {
     .navbar .container-fluid {
         display: flex;
         justify-content: flex-start;
-
-        
     }
 
     .hero-image {
         background-image: url("/images/Hot_Rice_9B.jpg"); 
         max-width: 760px;
-        height: 100%;
+        width: 800px;
+        height: 1200px;
+        /* height: 100%; */
         padding-top: 560px;
         padding-left: 230px;
         position: relative;
