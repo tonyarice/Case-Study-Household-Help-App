@@ -291,7 +291,7 @@ blockquote p {
 } */
 
 
-@media (max-width: 760px) { 
+@media (max-width: 415px) { 
 
     
     .body {
@@ -299,13 +299,9 @@ blockquote p {
         height: auto;   
     }
 
-    .navbar-brand {
-
-    }
-
     .hero-image {
         background-image: url("/images/Hot_Rice_9B.jpg"); 
-        max-width: 760px;
+        max-width: 415px;
         width: 80%;
         margin: 0 auto;
         height: 100%;
