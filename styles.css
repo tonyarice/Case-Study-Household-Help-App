@@ -291,7 +291,7 @@ blockquote p {
 } */
 
 
-@media screen and (max-width: 760px) { 
+@media screen and (max-width: 560px) { 
 
     
     .body {
@@ -305,8 +305,9 @@ blockquote p {
     }
 
     .hero-image {
-        background-image: url("/images/Hot_Rice_9B-1.jpg");
-        max-width: 50%;
+        background-image: url("/images/hot_rice_10_773x932.jpg");
+        max-width: 50
+        0%;
         width: 100vw;
         height: 100vh;
         /* width: 200px; */
