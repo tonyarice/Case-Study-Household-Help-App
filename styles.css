@@ -311,7 +311,7 @@ blockquote p {
     .hero-image {
         background-image: url("/images/hot_rice_10_773x932.jpg");
         max-width: 50%;
-        width: 50vw;
+        width: 25%;
         height: 50vh;
         /* width: 200px; */
         /* height: 1000px; */
