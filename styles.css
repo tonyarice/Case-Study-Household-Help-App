@@ -291,7 +291,7 @@ blockquote p {
 } */
 
 
-@media screen (max-width: 760px) { 
+@media screen and (max-width: 760px) { 
 
     
     .body {
@@ -319,7 +319,7 @@ blockquote p {
     }
 
     .hero-text { 
-        top: 75%;
+        top: 100%;
         left: 25%;
     }
 
