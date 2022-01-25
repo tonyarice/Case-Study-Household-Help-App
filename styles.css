@@ -306,6 +306,8 @@ blockquote p {
     .hero-image {
         background-image: url("/images/Hot_Rice_9B.jpg"); 
         max-width: 760px;
+        width: 80%;
+        margin: 0 auto;
         height: 100%;
         padding-top: 560px;
         padding-left: 230px;
