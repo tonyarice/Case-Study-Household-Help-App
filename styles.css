@@ -27,7 +27,6 @@ margin: 0;
     background-size: cover;
     position: relative;
     padding: 480px;
-    background-attachment: fixed;
     /* margin: 0 auto;
     display: block;
     padding: 480px;
@@ -306,7 +305,7 @@ blockquote p {
     }
 
     .hero-image {
-        background-image: url("/images/Hot_Rice_9B.jpg");
+        background-image: url("/images/Hot_Rice_9B-1.jpg");
         max-width: 50%;
         width: 800px;
         height: 1000px;
