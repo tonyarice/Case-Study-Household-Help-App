@@ -309,7 +309,7 @@ blockquote p {
     }
 
     .hero-image {
-        /* background-image: url("/images/hot_rice_10_773x932.jpg"); */
+        background-image: url("/images/hot_rice_10_773x932.jpg");
         max-width: 50%;
         /* width: 100vw;
         height: 100vh; */
