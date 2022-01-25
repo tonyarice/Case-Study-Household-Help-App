@@ -11,7 +11,6 @@ font-family: 'Cormorant Garamond', serif;
 font-family: 'Montserrat', sans-serif;
 height: 100%;
 margin: 0;
-
 }
 
 .navbar {
@@ -297,12 +296,12 @@ blockquote p {
     
     .body {
         max-width: 100%;
-        height: auto;
+        height: auto;   
     }
 
     .hero-image {
-        max-width: 50%;
-        height: auto;
+        background-image: url("/images/Hot_Rice_9B.jpg"); 
+        background-size: 100%;
     }
 
     .hero-text { 
