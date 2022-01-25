@@ -48,7 +48,7 @@ margin: 0;
     text-align: left;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 25%;
     transform: translate(-50%, -50%);
     color: white;
 }
@@ -291,7 +291,7 @@ blockquote p {
 } */
 
 
-@media (max-width: 760px) { 
+@media screen (max-width: 760px) { 
 
     
     .body {
@@ -307,8 +307,8 @@ blockquote p {
     .hero-image {
         background-image: url("/images/Hot_Rice_9B-1.jpg");
         max-width: 50%;
-        width: 800px;
-        height: 1000px;
+        width: 200px;
+        /* height: 1000px; */
         /* height: 100%; */
         padding-top: 560px;
         padding-left: 230px;
