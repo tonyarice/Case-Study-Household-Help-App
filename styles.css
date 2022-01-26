@@ -315,7 +315,7 @@ blockquote p {
 } */
 
 
-@media (max-width: 560px) { 
+@media (max-width: 775px) { 
 
     
     .body {
@@ -344,8 +344,8 @@ blockquote p {
 
     .hero-image {
         background-image: url("/images/hot_rice_10_773x932.jpg");
-        max-width: 50%;
-        width: 100%;
+        max-width: 100%;
+        width: 773px;
         object-fit: cover;
         object-position: bottom;
         /* height: 50vh; */
