@@ -73,8 +73,7 @@ margin: 0;
 }
 
 
-/* jumbotron test */
-
+/* jumbotron test
 .jumbotron-fluid { 
     background-image: url("/images/Hot_Rice_9-1600x1067.jpg");
     background-size: cover;
@@ -89,6 +88,7 @@ margin: 0;
     display: flex;
     justify-content: center;
 }
+end jumbotron test */
 
 
 
@@ -328,8 +328,9 @@ blockquote p {
         justify-content: flex-start;
     }
 
-    .jumbotron-fluid {
+    /* .jumbotron-fluid {
         background-image: url("/images/hot_rice_10_773x932.jpg");
+        max-width: 50%;
         width: 100%;
         object-fit: cover;
         object-position: bottom;
@@ -339,7 +340,7 @@ blockquote p {
         position: relative;
         z-index: 10;
         overflow-x: hidden;
-    }
+    } */
 
     .hero-image {
         background-image: url("/images/hot_rice_10_773x932.jpg");
