@@ -363,7 +363,8 @@ blockquote p {
         /* height: 100%; */
         padding-top: 560px;
         padding-left: 230px;
-        padding-bottom: 230px;
+        padding-bottom: 975px;
+        padding-right: 230px;
         position: relative;
         z-index: 10;
         overflow-x: hidden;
