@@ -353,18 +353,18 @@ blockquote p {
 
     .hero-image {
         justify-content: center;
-        max-width: 100%;
+        /* max-width: 100%; */
         width: 500px;
-        object-fit: cover;
-        object-position: bottom;
-        height: 50vh;
+        /* object-fit: cover;
+        object-position: bottom; */
+        /* height: 50vh;
         width: 200px;
         height: 1000px;
-        height: 100%;
-        padding-top: 60px;
+        height: 100%; */
+        /* padding-top: 60px;
         padding-left: 230px;
         padding-bottom: 975px;
-        padding-right: 230px;
+        padding-right: 230px; */
         position: relative;
         z-index: 10;
         overflow-x: hidden;
