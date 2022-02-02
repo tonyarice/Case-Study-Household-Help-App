@@ -359,7 +359,7 @@ blockquote p {
         object-position: bottom;
         /* height: 50vh; */
         /* width: 200px; */
-        /* height: 1000px; */
+        height: 1000px;
         /* height: 100%; */
         padding-top: 560px;
         padding-left: 230px;
@@ -370,7 +370,7 @@ blockquote p {
     }
 
     .hero-text { 
-        top: 60%;
+        top: 45%;
         left: 25%;
     }
 
