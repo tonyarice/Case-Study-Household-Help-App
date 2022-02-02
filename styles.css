@@ -25,7 +25,7 @@ margin: 0;
     font-weight: bold;
 }
 
-.hero-image {
+.hero-image  {
     background-image: url("/images/Hot_Rice_9-WS.jpg");
     background-color: lightgray;
     height: 180vh;
@@ -352,20 +352,19 @@ blockquote p {
     } */
 
     .hero-image {
-        background-image: url("/images/Hot_Rice_9-WS.jpg");
         justify-content: center;
         max-width: 100%;
-        width: 773px;
+        width: 500px;
         object-fit: cover;
         object-position: bottom;
-        /* height: 50vh; */
-        /* width: 200px; */
+        height: 50vh;
+        width: 200px;
         height: 1000px;
-        /* height: 100%; */
+        height: 100%;
         padding-top: 60px;
-        padding-left: 130px;
+        padding-left: 230px;
         padding-bottom: 975px;
-        padding-right: 245px;
+        padding-right: 230px;
         position: relative;
         z-index: 10;
         overflow-x: hidden;
