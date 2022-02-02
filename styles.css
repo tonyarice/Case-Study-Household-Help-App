@@ -13,6 +13,13 @@ height: 100%;
 margin: 0;
 }
 
+.navbar .container-fluid {
+    /* max-width: 100%;
+    width: 773px; */
+    display: flex;
+    justify-content: flex-start;
+}
+
 .navbar {
     font-family: var(--heading-font-family);
     font-weight: bold;
@@ -323,12 +330,12 @@ blockquote p {
         height: auto;   
     }
 
-    .navbar .container-fluid {
+    /* .navbar .container-fluid {
         max-width: 100%;
         width: 773px;
         display: flex;
         justify-content: flex-start;
-    }
+    } */
 
     /* .jumbotron-fluid {
         background-image: url("/images/hot_rice_10_773x932.jpg");
