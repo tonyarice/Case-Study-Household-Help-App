@@ -19,9 +19,9 @@ margin: 0;
 }
 
 .hero-image {
-    background-image: url("/images/Hot_Rice_9.jpg");
+    background-image: url("/images/Hot_Rice_9-WS.jpg");
     background-color: lightgray;
-    height: 100vh;
+    height: 120vh;
     width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
@@ -345,7 +345,7 @@ blockquote p {
     } */
 
     .hero-image {
-        background-image: url("/images/hot_rice_10_773x932.jpg");
+        justify-content: center;
         max-width: 100%;
         width: 773px;
         object-fit: cover;
