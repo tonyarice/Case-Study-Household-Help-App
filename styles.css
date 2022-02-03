@@ -25,10 +25,6 @@ margin: 0;
     font-weight: bold;
 }
 
-/* .hero-image .container-fluid {
-    flex: 1;
-} */
-
 .hero-image  {
     background-image: url("/images/Hot_Rice_9-WS.jpg");
     background-color: lightgray;
@@ -40,7 +36,6 @@ margin: 0;
     position: relative;
     padding: 480px;
     display: flex;
-    flex: 1;
     justify-content: center;
     /* margin: 0 auto;
     display: block;
