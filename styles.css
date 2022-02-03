@@ -25,6 +25,10 @@ margin: 0;
     font-weight: bold;
 }
 
+.hero-image .container-fluid {
+    flex: 1;
+}
+
 .hero-image  {
     background-image: url("/images/Hot_Rice_9-WS.jpg");
     background-color: lightgray;
@@ -361,10 +365,10 @@ blockquote p {
         /* width: 200px;
         height: 1000px;
         height: 100%; */
-        padding-top: 60px;
-        padding-left: 230px;
+        padding: 60px 230px 975px 230px;
+        /* padding-left: 230px;
         padding-bottom: 975px;
-        padding-right: 230px;
+        padding-right: 230px; */
         position: relative;
         z-index: 10;
         overflow-x: hidden;
