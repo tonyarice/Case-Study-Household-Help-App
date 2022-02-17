@@ -28,13 +28,13 @@ margin: 0;
 .hero-image  {
     background-image: url("/images/Hot_Rice_9-WS.jpg");
     background-color: lightgray;
-    height: 180vh;
+    height: 25vh;
     width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding: 480px;
+    padding: 550px;
     display: flex;
     justify-content: center;
     /* margin: 0 auto;
